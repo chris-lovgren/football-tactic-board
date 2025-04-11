@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Tactics Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Football Tactics Board</h1>
+        
+        <!-- Main pitch container -->
+        <div id="pitch" class="pitch">
+            <!-- Pitch will be rendered here -->
+        </div>
+
+        <!-- Team selection -->
+        <div class="team-selection">
+            <div class="team red-team">
+                <h2>Red Team</h2>
+                <div class="player-pool" id="red-team-pool"></div>
+            </div>
+            <div class="team blue-team">
+                <h2>Blue Team</h2>
+                <div class="player-pool" id="blue-team-pool"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript modules -->
+    <script type="module" src="js/app.js"></script>
+    <script type="module" src="js/player.js"></script>
+    <script type="module" src="js/drag-drop.js"></script>
+    <script type="module" src="js/pitch.js"></script>
+</body>
+</html>
